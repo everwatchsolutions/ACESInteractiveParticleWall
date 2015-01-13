@@ -1,0 +1,56 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{
+    margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent
+}
+body{
+    line-height:1
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+    display:block
+}
+nav ul {
+    list-style:none
+}
+blockquote,q{
+    quotes:none
+}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+li{list-style:none}
+@font-face{font-family:'icomoon';src:url("fonts/icomoon.eot?g1vuq9");src:url("fonts/icomoon.eot?#iefixg1vuq9") format("embedded-opentype"),url("fonts/icomoon.woff?g1vuq9") format("woff"),url("fonts/icomoon.ttf?g1vuq9") format("truetype"),url("fonts/icomoon.svg?g1vuq9#icomoon") format("svg");font-weight:normal;font-style:normal}
+html,body{width:100%;height:100%;background:#fff}
+canvas{display:block;vertical-align:bottom;opacity:0.6}
+#particles-js{width:100%;height:100%;background-color:#b61924}
+.panel{
+    font-family:'Source Sans Pro';
+    position:absolute;
+    z-index:10;
+    width:500px;
+    /*height:208px;*/
+    background:#eee;
+    top:35%;
+    left:50%;
+    margin:-104px 0 0 -250px;
+    padding:20px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box
+}
+.panel h1{font-size:1.8em;font-weight:700;text-align:center;margin-bottom:10px; margin-top:30px; color:#222}
+.panel h2{font-weight:400;font-size:1em;margin-bottom:16px;text-align:center;line-height:1.3em;}
+.panel li{font-size:1.1em;font-weight:400;text-align:center;height:34px;line-height:34px;background:#fff;margin-top:10px;color:#222;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;-moz-transition:background 0.2s ease,color 0.2s ease;-o-transition:background 0.2s ease,color 0.2s ease;-webkit-transition:background 0.2s ease,color 0.2s ease;transition:background 0.2s ease,color 0.2s ease}
+.panel li a{display:block;width:100%;height:100%;color:#222;-moz-transition:color 0.2s ease;-o-transition:color 0.2s ease;-webkit-transition:color 0.2s ease;transition:color 0.2s ease}
+.panel li a span:after{font-family:'icomoon';margin-left:10px;vertical-align:top}
+.panel li:nth-of-type(1) a span:after{content:"\e601"}
+.panel li:nth-of-type(2) a span:after{content:"\e600"}
+.panel li:hover{background:#222;color:#fff}
+.panel li:hover a{color:#fff}
+/*# sourceMappingURL=style.css.map */
