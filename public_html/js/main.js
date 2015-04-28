@@ -135,7 +135,6 @@ Leap.loop({
     hand: function (hand) {
 
         var pos = hand.screenPosition();
-//    console.log( pos );
         if (pJS) {
 
             pJS.interactivity.mouse.pos_x = pos[0] + 100;
@@ -150,8 +149,7 @@ Leap.loop({
         }
     }
 
-})
-        .use('screenPosition', {scale: 0.70});
+}).use('screenPosition', {scale: 0.70});
 
 
 $('#particles-js').click(function () {
