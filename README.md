@@ -7,7 +7,7 @@ Let's quickly explain what this is all about. ACES develops many applications, b
 
 We decided to build a simple web page that would show a Welcome to ACES sign that we could project on a wall in our large conference room where the hiring event was being held. On the screen, you would see some random particles floating around the wall. If you walked up to the wall and held you hand over the Leap Motion controller, you could interact with the particles. Waving your hand around would select particles and tapping with your hand would cause particles to explode from where you tapped. It was a simple interaction, but gave us something to talk about with other developers who came to our hiring event.  
 
-####Here's what is looked like
+####Here's what it looked like
 ![image](http://acesinc.github.io/ACESInteractiveParticleWall/images/ParticleWallPreview.png)
 
 ### How was this implemented?
